@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceasar Cipher</title>
+    <script src="omgomgomgomg.js" defer></script>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            align-items: center;
+            margin: 0;
+            padding: auto;
+            zoom: 130%;
+        }
+        textarea {
+            width: 679px;
+            height: 283px;
+            font-size: x-large;
+            margin-bottom: 30px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        select {
+            margin-bottom: 10px;
+        }
+    </style>
+    <h1>Encrypt/Decrypt</h1><br>
+
+    <form>
+        <label for="text">TEXT TO HACKER ON.... 🤠</label><br>
+        <textarea id="text"></textarea><br>
+
+        <label for="shift">Shift Value</label>
+        <input type="number" id="shift" style="width: 80px;" min="1"><br>
+
+        <label for="direction">left/right</label>
+        <select id="direction">
+            <option value="left">Left</option>
+            <option value="right">Right</option>
+        </select><br>
+
+        <label for="switcher">Encrypt/Decrypt</label>
+        <select id="switcher">
+            <option value="enc">Encrypt</option>
+            <option value="dec">Decrypt</option>
+        </select><br>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit">
+    </form> 
+
+    <div id="output">
+        
+    </div>
+</body>
+</html>
